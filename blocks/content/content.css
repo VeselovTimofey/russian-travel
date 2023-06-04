@@ -11,3 +11,9 @@
     max-width: 1024px;
   }
 }
+
+@media screen and (max-width: 1023ox) {
+  .content {
+    max-width: 768px;
+  }
+}

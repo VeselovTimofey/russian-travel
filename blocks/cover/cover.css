@@ -15,3 +15,11 @@
     min-height: 640px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-width: 768px;
+    min-height: 480px;
+    margin-top: 90px;
+  }
+}

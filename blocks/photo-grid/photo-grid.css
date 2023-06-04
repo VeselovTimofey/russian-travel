@@ -13,3 +13,11 @@
     max-width: 928px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 352px);
+    gap: 16px;
+    max-width: 720px;
+  }
+}
