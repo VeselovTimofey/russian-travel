@@ -19,5 +19,15 @@
     grid-template-columns: repeat(2, 352px);
     gap: 16px;
     max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, 288px);
+    gap: 12px;
+    max-width: 288px;
+    margin-top: 64px;
   }
 }
