@@ -5,3 +5,9 @@
   max-width: 984px;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 1184px) {
+  .places {
+    max-width: 928px;
+  }
+}
