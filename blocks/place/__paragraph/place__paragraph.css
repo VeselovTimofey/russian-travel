@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29.34px;
   color: #FFFFFF;
 }
 
@@ -14,6 +14,7 @@
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 26.08px;
   }
   .place__paragraph:not(:first-of-type) {
     margin-top: -23px;
@@ -21,6 +22,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .place__paragraph {
+    width: 288px;
+    order: 3;
+  }
   .place__paragraph:not(:first-of-type) {
     margin-top: -7px;
   }
