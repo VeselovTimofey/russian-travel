@@ -8,3 +8,10 @@
   min-height: 740px;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    min-width: 1024px;
+    min-height: 640px;
+  }
+}
