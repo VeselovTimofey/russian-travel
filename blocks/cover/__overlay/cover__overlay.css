@@ -24,3 +24,10 @@
     min-height: 480px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    min-width: 320px;
+    min-height: 200px;
+  }
+}

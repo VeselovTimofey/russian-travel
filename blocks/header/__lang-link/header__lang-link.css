@@ -12,3 +12,11 @@
 .header__lang-link:first-of-type {
   text-decoration-line: underline;
 }
+
+@media screen and (max-width: 767px) {
+  .content {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
