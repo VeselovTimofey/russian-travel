@@ -7,17 +7,10 @@
   color: #FFFFFF;
 }
 
-.place__paragraph:not(:first-of-type) {
-  margin-top: -22px;
-}
-
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
-  }
-  .place__paragraph:not(:first-of-type) {
-    margin-top: -23px;
   }
 }
 
@@ -25,8 +18,5 @@
   .place__paragraph {
     width: 288px;
     order: 3;
-  }
-  .place__paragraph:not(:first-of-type) {
-    margin-top: -7px;
   }
 }
