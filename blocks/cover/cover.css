@@ -1,6 +1,6 @@
 .cover {
-  min-width: 1184px;
-  min-height: 740px;
+  width: 100%;
+  aspect-ratio: 16/10;
   margin-top: 92px;
   background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/trains.png);
   background-size: cover;
@@ -9,27 +9,4 @@
 
 .cover:hover {
   background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../images/trains.png);
-}
-
-@media screen and (max-width: 1184px) {
-  .cover {
-    min-width: 1024px;
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover {
-    min-width: 768px;
-    min-height: 480px;
-    margin-top: 90px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover {
-    min-width: 320px;
-    min-height: 200px;
-    margin-top: 66px;
-  }
 }
