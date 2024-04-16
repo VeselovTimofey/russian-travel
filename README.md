@@ -9,3 +9,10 @@
 * HTML
 * CSS
 * GitHub Pages
+
+### Статус
+Завершён.
+
+### Автор
+Veselov Timofey <br />
+vestimofey@mail.ru
